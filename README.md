@@ -1,1 +1,5 @@
-# TicTacToe
+The code is an implementation of the game Tic Tac Toe, known as "triliza" in Greek. It first stores the game board as a dictionary with the keys representing the coordinates of each cell and their values as empty strings. It then defines a function (printTriliza) which displays the current state of the board.
+
+The main function "startGame" sets up the game by assigning the first turn to the player with the 'X' symbol, initializes a counter to keep track of the number of moves made, and then enters a loop where it prompts the current player to enter the cell they wish to move in. The program checks if the selected cell is empty and fills it with the current player's symbol if it is. If the cell is already filled, it displays an error message and prompts the player to choose another cell.
+
+After each move, the program checks if any player has won the game by checking all possible winning combinations. If a player has won, the program displays the final state of the board and declares the winner. If no player has won and all cells are filled, the program declares the game as a tie. The game continues until a player wins or until all cells are filled.
